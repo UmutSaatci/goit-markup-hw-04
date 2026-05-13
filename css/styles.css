@@ -1,0 +1,253 @@
+body{
+font-family: 'Roboto',Arial, sans-serif;
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.002em;
+    background-color: #FFFFFF;
+    font-size: 16px;
+   
+    
+}
+* {
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+        display: block;
+        height: auto;
+}
+ul,ol{
+  list-style-type: none; 
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0px;
+}
+
+h2{
+        font-size: 36px;
+        letter-spacing: 0.002em;
+        line-height: 1.5;
+        color: #2E2F42;
+}
+h3 {
+    font-size: 20px;
+    letter-spacing: 0.002em;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #2E2F42;
+    padding-bottom: 8px;
+}
+
+
+
+a{
+    text-decoration: none;
+        color: inherit;
+       
+       
+}
+span {
+    color: #4D5AE5;
+}
+
+.context-text{
+    background-color: white;
+    padding: 32px 16px;
+    text-align: center;
+}
+.portfolio-text{
+    background-color: white;
+        padding: 32px 16px;
+       
+}
+
+.container {
+    max-width: 1158px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+header .container{
+    display: flex;
+    padding: 24px 15px;
+    border-bottom: 1px solid #E7E9FC;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.main {
+    flex-grow: 1;
+}
+
+.address ul{
+    display: flex;
+    gap: 40px;
+}
+.section-two .container{
+  
+    padding: 120px 15px;
+    
+}
+.section-two .container ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 24px;
+    align-items: center;
+
+}
+.section-two .container ul li {
+    display: flex;
+        flex-direction: column;
+    width: 264px;
+    height: 104px;
+    
+}
+.logo {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.003em;
+  
+}
+
+.navbar ul {
+    display: flex;
+    gap: 40px;
+
+}
+.navbar ul li a{
+    display: block;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.003em;
+        color: #2E2F42;
+  
+}
+.navbar ul li a:hover, a:focus {
+    text-decoration: none;
+    color: #404BBF;
+    cursor: pointer;
+    font-weight: 700;
+}
+.address ul li a {
+        display: block;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing:0.003em;
+        color:#434455;
+      
+}
+.address ul li a:hover,
+a:focus {
+    text-decoration: none;
+    color: #404BBF;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+.section-title {
+    padding-bottom: 72px;
+    text-align: center;
+}
+.section-one{
+    display: block;
+    background-color: #2E2F42;
+    text-align: center;
+    width: 100%;
+    padding: 120px 0;
+   
+    
+}
+.section-one .container>h1{
+         font-size: 56px;
+        letter-spacing: 0.002em;
+        line-height: 1.07;
+        font-weight: 700;
+        color: #FFFFFF;
+}
+.section-one .container>button{
+    background-color: #4D5AE5;
+    color: white;
+    width: 169px;
+    height: auto;
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+    border:0px;
+    
+}
+.section-one .container>button:hover,button:focus {
+    background-color: #404BBF;
+        color: white;
+        cursor: pointer;
+}
+.section-team{
+   
+    background-color: #F4F4FD;
+
+}
+
+.section-team .container{
+    padding: 120px 15px;
+  
+}
+.section-team .container ul{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  
+        gap: 24px;
+        padding: 0;
+        margin: 0;
+       
+   
+}
+.section-team .container ul li{
+
+    display: flex;
+        flex-direction: column;
+        height: 100%;
+      
+        border: 1px solid #E7E9FC;
+
+}
+
+.our-portfolio .container{
+    padding: 120px 15px;
+}
+
+.our-portfolio .container ul{
+             display: grid;
+            grid-template-columns: repeat(3, minmax(200px, 1fr));
+        gap: 48px 24px;
+            padding: 0;
+            margin: 0;
+}
+
+.our-portfolio .container .item {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #E7E9FC;
+   
+}
+
+.footer{
+    background-color: #2E2F42;
+    
+}
+.footer .container{
+    color: white;
+    padding: 100px 15px;
+}
+.footer .container .content {
+        width: 264px;
+        height: 112px;
+}
+.footer .container p {
+   padding-top: 16px;
+}
